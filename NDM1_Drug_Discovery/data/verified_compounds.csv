@@ -1,0 +1,4 @@
+Compound_ID,SMILES,Description,RDKit_Valid,MW,LogP,HBD,HBA,TPSA,Formula
+COMP001,CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O),Ampicillin (Standard control antibiotic),True,335.39,-0.07,3,5,112.73,C15H17N3O4S
+COMP002,CC1=C(C(=O)N2C(C1=O)S(=O)(=O)C(C2C(=O)O)(C)C)C,Sulbactam (Known Beta-lactamase Inhibitor),True,301.32,-0.28,1,5,108.82,C12H15NO6S
+COMP003,C1CC(C(=O)N1C(=O)N2CC3CCC2CC3)C(=O)O,Avibactam (Advanced Non-beta-lactam inhibitor),True,266.3,0.91,1,3,77.92,C13H18N2O4

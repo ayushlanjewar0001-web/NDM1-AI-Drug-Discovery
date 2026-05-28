@@ -1,0 +1,32 @@
+[
+    {
+        "Compound_ID": "COMP003",
+        "SMILES": "C1CC(C(=O)N1C(=O)N2CC3CCC2CC3)C(=O)O",
+        "Description": "Avibactam (Advanced Non-beta-lactam inhibitor)",
+        "MW": 266.3,
+        "LogP": 0.91,
+        "Binding_Affinity_kcal_mol": -5.425,
+        "Docked_Pose_Path": "data/docked_COMP003.pdbqt",
+        "Vina_Log_Path": "data/docking_COMP003.log"
+    },
+    {
+        "Compound_ID": "COMP001",
+        "SMILES": "CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)",
+        "Description": "Ampicillin (Standard control antibiotic)",
+        "MW": 335.39,
+        "LogP": -0.07,
+        "Binding_Affinity_kcal_mol": -5.239,
+        "Docked_Pose_Path": "data/docked_COMP001.pdbqt",
+        "Vina_Log_Path": "data/docking_COMP001.log"
+    },
+    {
+        "Compound_ID": "COMP002",
+        "SMILES": "CC1=C(C(=O)N2C(C1=O)S(=O)(=O)C(C2C(=O)O)(C)C)C",
+        "Description": "Sulbactam (Known Beta-lactamase Inhibitor)",
+        "MW": 301.32,
+        "LogP": -0.28,
+        "Binding_Affinity_kcal_mol": -4.831,
+        "Docked_Pose_Path": "data/docked_COMP002.pdbqt",
+        "Vina_Log_Path": "data/docking_COMP002.log"
+    }
+]

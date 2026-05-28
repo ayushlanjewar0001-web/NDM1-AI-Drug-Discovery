@@ -1,0 +1,38 @@
+[
+    {
+        "Compound_ID":"COMP001",
+        "SMILES":"CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)",
+        "Description":"Ampicillin (Standard control antibiotic)",
+        "RDKit_Valid":true,
+        "MW":335.39,
+        "LogP":-0.07,
+        "HBD":3,
+        "HBA":5,
+        "TPSA":112.73,
+        "Formula":"C15H17N3O4S"
+    },
+    {
+        "Compound_ID":"COMP002",
+        "SMILES":"CC1=C(C(=O)N2C(C1=O)S(=O)(=O)C(C2C(=O)O)(C)C)C",
+        "Description":"Sulbactam (Known Beta-lactamase Inhibitor)",
+        "RDKit_Valid":true,
+        "MW":301.32,
+        "LogP":-0.28,
+        "HBD":1,
+        "HBA":5,
+        "TPSA":108.82,
+        "Formula":"C12H15NO6S"
+    },
+    {
+        "Compound_ID":"COMP003",
+        "SMILES":"C1CC(C(=O)N1C(=O)N2CC3CCC2CC3)C(=O)O",
+        "Description":"Avibactam (Advanced Non-beta-lactam inhibitor)",
+        "RDKit_Valid":true,
+        "MW":266.3,
+        "LogP":0.91,
+        "HBD":1,
+        "HBA":3,
+        "TPSA":77.92,
+        "Formula":"C13H18N2O4"
+    }
+]
